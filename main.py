@@ -1,5 +1,5 @@
-import requests
-
-response = requests.get('https://httpbin.org/ip')
-
-print('Your IP is {0}'.format(response.json()['origin']))
+import nltk
+f = open ("tyger.txt", "r",)
+data = f.read()
+tokens = nltk.word_tokenize(data)
+print(tokens)
