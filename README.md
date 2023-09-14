@@ -1,5 +1,7 @@
 # English version
   - Please scroll down for the Japanese version.
+## Overview.
+    - Use NLP libraries to extract words with arbitrary tags from text files
 ## Requirement
   - macOS
   - Python 3.9.6
@@ -62,6 +64,8 @@
       ```
 
 # 日本語版
+  ## 概要
+    - NLPライブラリを使用して、テキストファイルから任意のタグをもつ単語を抽出する
   ## 実行環境
   - macOS
   - Python 3.9.6
