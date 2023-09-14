@@ -3,7 +3,7 @@ import datetime
 
 # Show tags for all words
 # (全ての単語のタグを表示する)
-f = open ("tyger.txt", "r", encoding="utf8")
+f = open ("alice.txt", "r", encoding="utf8")
 data = f.read()
 tokens = nltk.word_tokenize(data)
 tags = nltk.pos_tag(tokens)
